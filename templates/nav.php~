@@ -1,0 +1,16 @@
+<?php
+$request = explode("/", $_SERVER['REQUEST_URI']);
+$Hostroot = 'http://'.$_SERVER['SERVER_NAME']."/".$request[1]."/";
+?>
+
+<a id="navigation" name="navigation"></a>
+<div class="hlist">
+    <ul>
+        <li><a href="<?php echo $Hostroot; ?>index.php">Inicio</a></li>
+        <li><a href="<?php echo $Hostroot; ?>carros/index.php">Carros</a></li>
+        <li><a href="<?php echo $Hostroot; ?>guia_automotriz/index.php">Guía Automotriz</a></li>
+        <li><a href="<?php echo $Hostroot; ?>concesionarios/index.php">Concesionarios</a></li>
+        <li><a href="<?php echo $Hostroot; ?>#">Registra tu anuncio</a></li>
+        <li><a href="<?php echo $Hostroot; ?>contacto.php">Contacto</a></li>
+    </ul>
+</div>

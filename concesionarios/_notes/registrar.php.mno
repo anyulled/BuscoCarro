@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="" />
+	<infoitem key="MM_css_exclude" value="../yaml/print/print_draft.css,../yaml/print/print_003_draft.css,../yaml/print/print_020_draft.css,../yaml/print/print_023_draft.css,../yaml/print/print_100_draft.css,../yaml/print/print_103_draft.css,../yaml/print/print_120_draft.css,../yaml/print/print_123_draft.css" />
+</info>
